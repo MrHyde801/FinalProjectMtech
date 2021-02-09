@@ -1,0 +1,150 @@
+a, body, h1, h2, h3, h4, div, body, html, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(243, 236, 236);
+
+  }
+
+h2 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#Container {
+    width: 1000px;
+    margin: auto;
+    height: auto;
+}
+
+#ogPost {
+    display:flex;
+    width: 1030px;
+    height: 150px;
+    flex-flow: column nowrap;
+    margin: 10px;
+    position: sticky;
+    z-index: 2;
+    background-color: white;
+}
+
+#commSection {
+    position: fixed;
+    bottom: 10px;
+    width: 1000px;
+    height: 100px;
+    background-color: white;    
+}
+
+.post1 {
+    position: relative;
+    background-color: white;
+    margin: 10px;
+    
+}
+
+.footer {
+    position: absolute;
+}
+
+#displayName {
+    top: 40%;
+    left: 30px;
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#pHolder {
+    top: 43%;
+    right: 30px;
+    color:rgb(77, 77, 221);
+    border: none;
+    background-color: white;
+    font-size: 30px;
+}
+
+#comment {
+    top: 40%;
+    left: 190px;
+    width: 65%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.commContainer {
+    box-shadow: 3px 3px 3px grey;
+    position: relative;
+    width: 900px;
+    margin: 20px;
+    padding: 15px;
+    margin-left: 60px;
+    height: auto;
+    display: flex;
+    background-color: white;
+}
+
+.spanDiv {
+    background-color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    color:rgb(77, 77, 221);
+}
+
+span {
+    position:relative
+}
+
+.textBox {
+    background-color: white;
+    margin-left: 5px;
+    padding: 10px;
+    width: 75%;
+}
+
+h3, h4 {
+    background-color: white;
+    margin: 5px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 25px;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.img {
+    width: 20%;
+    background-size: cover;
+}
+
+
+
+.textBox > input {
+    width: 80%;
+    height:30px;
+    font-size:20px;
+    display:none;
+    margin-left: 5px;
+}
+
+button {
+    width: 15%;
+    background-color: white;
+    color:rgb(77, 77, 221);
+    font-size: 30px;
+    border: none;
+    display:none;
+    margin-left: 15px;
+    
+}
